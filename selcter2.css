@@ -1,0 +1,16 @@
+/* Descendent selector */
+main p {
+    color: brown;
+}
+/* child selector */
+ h1 > p {
+    color: blue;
+ }
+  /* adjacent sibling sector  */
+ section + p {
+    color: blueviolet; 
+ }
+    /*general selector(this is apply on all {p tag}*/
+ section ~ p {
+   color: blueviolet;
+}

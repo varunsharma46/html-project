@@ -1,0 +1,27 @@
+/* universal selector */
+*
+ {
+    padding: 0%;
+    margin: 0%;
+
+}
+/* element selector */
+ h1{
+    color: blueviolet;
+}
+p{
+    color: rgb(8, 53, 38);
+    background-color: aquamarine;
+}
+/* class selector */
+ .pra{
+    background-color: azure;
+} 
+/* id selector (#) */
+ #ok{
+font: 400;
+} 
+ list selector */ */
+h1,.pra{
+    color:blue
+}

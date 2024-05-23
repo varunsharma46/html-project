@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    @media (min-width: 425px){
+        body{
+          background-color: rgb(147, 34, 34);
+        }
+        h1::after{
+          content:"This is a Media Query demo page.";
+        }
+        p::after{
+            content: "425px";
+        }
+    }
+    @media (min-width:768px){
+        body{background-color: rgb(138, 218, 231);}
+        h1::after{
+            content:"This is a Media Query demo page.";
+          }
+          p::after{
+            content:"768px" ;
+          }
+    }
+    @media (min-width:1024px){
+        body{background-color: rgb(130, 113, 46);
+        }
+        h1::after{
+            content:"This is a Media Query demo page.";
+          }
+          p::after{
+            content: "1024px";
+          }
+    }
+    @media (min-width:1440px){
+        body{background-color: rgb(31, 91, 40);}
+        h1::after{
+            content:"This is a Media Query demo page.";
+    }
+    p::after{
+        content: "1440px";
+      }
+}
+     @media (min-width:1500px){
+    body{background-color: rgb(153, 230, 191);}
+    h1::after{
+    content:"This is a Media Query demo page.";
+     }
+    }
+    
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+</body>
+</html>

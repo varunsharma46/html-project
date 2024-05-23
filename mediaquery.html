@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media querie</title>
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        div {
+            font-size: xx-large;
+            text-align: center;
+        }
+        div::after{
+            content: ">550px";
+            
+        }
+                @media (max-width: 550px){
+            body{
+              background-color: rgb(235, 171, 98);
+            }
+            div::after{
+              content: "<550px";
+            }
+  
+          }
+
+          @media (min-width:600px){
+            body{
+                background-color: rgb(56, 16, 235);
+              }
+              div::after{
+                content: "600px-900px";
+              }
+          }
+
+
+
+          
+        @media (min-width: 900px){
+          body{
+            background-color: aquamarine;
+          }
+          div::after{
+            content: ">900px";
+          }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>

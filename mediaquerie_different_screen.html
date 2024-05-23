@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERIES</title>
+    <style>
+        div{
+            text-align: center;
+            font-size: xx-large;
+     }
+     /* THIS FOR MOBILE USAGE*/
+        @media (max-width:600px){
+            body {background-color: yellow;}
+            div::after{
+                content: "MOBILES NAD PHONES";
+            }
+            h1 {
+                height: auto;
+                width: auto;
+                border: 2px solid black;
+                background-color:rgb(189, 39, 64);
+            }
+    
+        }
+        /*600px-768px   THIS FOE TABLATE USAGE*/ 
+        @media (min-width:600px){
+            body{
+                background-color: pink;
+
+            }
+            div::after{
+                content: "TABLATE";
+            }
+            h1 {
+                height: auto;
+                width: auto;
+                border: 2px solid black;
+                background-color:rgb(59, 177, 228);
+            }
+    
+
+        }
+        /*768px-992px   THIS LAPTOP AND PC USAGE*/
+        @media (min-width:768px){
+            body{
+                background-color: rgb(232, 15, 51);
+
+            }
+            div::after{
+                content: "LAPTOP";
+            }
+            h1 {
+                height: auto;
+                width: auto;
+                border: 2px solid black;
+                background-color:rgb(223, 235, 157);
+            }
+    
+
+        }
+        /*THIS FOR EXATRA SIZE LAPTOP AND DESTOP USAGE */
+        @media (min-width:992px){
+            body{
+                background-color: rgb(13, 212, 43);
+
+            }
+            div::after{
+                content: "BIGG SIZE LAPTOP";
+            }
+            h1 {
+                height: auto;
+                width: auto;
+                border: 2px solid black;
+                background-color:pink;
+            }
+    
+        }
+       
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, minima.</h1>
+        <br>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente consectetur perferendis eveniet ut nihil et exercitationem enim minus laboriosam, minima, recusandae fugit beatae eaque architecto. Iusto molestiae inventore fugiat qui magnam suscipit laboriosam! Aperiam sequi, quam impedit vitae nesciunt reprehenderit explicabo minima asperiores quas? Nobis voluptatum facere hic eius, qui voluptatem quam id consequuntur deleniti laudantium atque sunt dicta numquam earum reiciendis optio cum nulla rerum nemo enim accusantium quibusdam magnam asperiores vitae? Repellendus magni at, sed nulla reprehenderit quidem enim. Atque qui aspernatur beatae totam dolor? Repellendus voluptas cum quisquam deserunt consequuntur, eligendi mollitia iure obcaecati adipisci eveniet.</p>
+        <footer><p>this is a footer</p></footer>
+    </div>
+    
+</body>
+</html>
